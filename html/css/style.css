@@ -1,0 +1,284 @@
+.container {
+    border: 0.5px solid white;
+    background-image: url("../images/background.jpg");
+    height: 100%;
+    background-size: cover;
+}
+
+.part--lower__payment {
+    height: 100%;
+    flex: 3;
+}
+
+.part--lower__cart {
+    height: 100%;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+
+.part {
+    background-color: white;
+    border: 0.5px solid lightgray;
+    margin: 70px 100px;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.card-details--date-cvv {
+    display: flex;
+}
+
+.breadcrumbs {
+    padding: 7px;
+}
+
+.part--upper {
+    display: flex;
+    height: 4.5%;
+}
+
+.breadcrumbs li{
+    display: inline;
+}
+
+.breadcrumbs--active {
+    font-weight: bold;
+}
+
+.part--lower {
+    border-top: 0.5px solid lightgray;
+    display: flex;
+}
+
+#cardholder-name {
+    border: 0.5px solid lightgray;
+    padding: 4px;
+    border-radius: 4px;
+    width: 95%;
+    height: 40px;
+    margin: 5px;
+    font-size: 12px;
+}
+
+#account-number {
+    border: 0.5px solid lightgray;
+    border-radius: 4px;
+    padding: 4px;
+    width: 95%;
+    height: 40px;
+    margin: 5px;
+    font-size: 12px;
+}
+
+#card-expiry {
+    border: 0.5px solid lightgray;
+    border-radius: 4px;
+    padding: 4px;
+    width: 45%;
+    height: 40px;
+    margin: 5px;
+    font-size: 12px;
+}
+
+#card-cvv {
+    border: 0.5px solid lightgray;
+    border-radius: 4px;
+    padding: 4px;
+    width: 45%;
+    height: 40px;
+    margin: 5px;
+    font-size: 12px;
+}
+
+.breadcrumbs li:after {
+    padding: 15px;
+    content: "/";
+    color: grey;
+}
+
+.breadcrumbs li:last-child:after {
+    content: "";
+}
+
+#card-submit {
+    border-radius: 4px;
+    padding: 4px;
+    width: 95%;
+    height: 40px;
+    margin: 5px;
+    color: white;
+    border: 0.5px solid #4caf45;
+    background-color: #4caf45;
+}
+
+.card-details div {
+    width: 40%;
+}
+
+.card-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header--title {
+    flex: 7;
+}
+
+.header--title__checkout {
+    font-weight: bold;
+}
+
+.header--list {
+    flex: 25;
+    font-style: bold;
+}
+
+.header--icon__close {
+    flex: 0.1;
+    align-items: center;
+}
+
+h1 {
+    padding: 7px;
+}
+
+h2 {
+    padding-top: 7px;
+    color: rgb(70, 69, 69);
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 12px;
+    padding-top: 15px;
+    color: rgb(70, 69, 69);
+    font-style: italic;
+}
+
+h4 {
+    font-size: 12px;
+    color: rgb(70, 69, 69);
+}
+
+h5 {
+    text-align: right;
+    font-size: 12px;
+    color: rgb(70, 69, 69);
+    padding-right: 5px;
+    font-weight:bold;
+}
+
+h6 {
+    padding: 5px;
+    font-size: 12px;
+    color: rgb(70, 69, 69);
+}
+
+hr {
+    width: 97%;
+}
+
+.image--cards {
+    width: 90%;
+    padding: 5px;
+}
+
+.image--active {
+    border: 0.5px solid grey;
+    background-color: lightgray;
+}
+
+.image--products {
+    border: 7px solid lightgray;
+    width: 60px;
+    margin: 10px;
+}
+
+.image {
+    display: flex;
+}
+
+.image div {
+    margin: 40px;
+}
+
+.items-subtotal {
+    display: flex;
+}
+
+.items-subtotal div {
+    flex: 1;
+}
+
+.items--line {
+    margin-top: 30px;
+}
+
+.items-price {
+    text-align: right;
+}
+
+.items-total {
+    display: flex;
+}
+
+.items-total div {
+    flex: 1;
+}
+
+#close {
+    padding: 7px;
+}
+
+.total {
+    font-size: 12px;
+    color: rgb(70, 69, 69);
+    padding: 5px;
+    font-weight: bold;
+}
+.part--lower--payment_wallet {
+    font-size: 14px;
+    font-weight: lighter;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    color: grey;
+}
+
+@media only screen and (max-width: 992px) {
+    .part {
+        margin: 70px 20px;
+    }
+    .part--lower__payment {
+        flex: 1;
+    }
+    .part--lower__cart {
+        flex: 1;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .breadcrumbs{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .part--lower {
+        flex-direction: column-reverse;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .part--lower {
+        height: 75%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .image {
+        flex-direction: column;
+    }
+}

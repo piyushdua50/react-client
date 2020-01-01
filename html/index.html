@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Intro</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="part">
+            <div class="part--upper">
+                <div class="header--title">
+                    <h1 class="header--title__checkout">Checkout</h1>
+                </div>
+                <div class="header--list">
+                    <ul class="breadcrumbs">
+                        <li><a>Shipping</a></li>
+                        <li class="breadcrumbs--active"><a>Payment Method</a></li>
+                        <li><a>Confirmation</a></li>
+                    </ul>
+
+                </div>
+                <div class="header--icon__close">
+                    <i class="fa fa-window-close" id="close"></i>
+                </div>
+            </div>
+            <div class="part--lower">
+                <div class="part--lower__payment">
+                    <h1 class="part--lower--payment_wallet">Wallet</h1>
+                    <hr>
+                    <div class="image">
+                        <div>
+                            <img class="image--cards" src="images/discover.png">
+                        </div>
+                        <div class="image--active">
+                            <img class="image--cards" src="images/mastercard.png">
+                        </div>
+                        <div>
+                            <img class="image--cards" src="images/visa.png">
+                        </div>
+                    </div>
+                    <h1 class="part--lower--payment_wallet">New Card</h1>
+                    <div class="card-details">
+                        <hr>
+                        <div class="card-details--name">
+                            <input id="cardholder-name" type="text" placeholder="Name on Card">
+                        </div>
+                        <div class="card-details--number">
+                            <input id="account-number" type="text" placeholder="XXXX-XXXX-XXXX-XXXX">
+                        </div>
+                        <div class="card-details--date-cvv">
+                            <input id="card-expiry" type="text" placeholder="MM/YY">
+                            <input id="card-cvv" type="text" placeholder="CVV">
+                        </div>
+                        <div class="card-details--submit">
+                            <input id="card-submit" type="submit" value="CONTINUE">
+                        </div>
+                    </div>
+                </div>
+                <div class="part--lower__cart">
+                    <div class="items-mobile">
+                        <img class="image--products" src="images/mobile-holder.jpg" align="left">
+                        <h2>Mobile Holder</h2>
+                        <h3>Black</h3>
+                        <h4>Quantity: 1</h4>
+                        <h5>$10.00</h5>
+                        <hr>
+                    </div>
+                    <div class="items-rado">
+                        <img class="image--products" src="images/rado.jpg" align="left">
+                        <h2>Rado Watch</h2>
+                        <h3>Black</h3>
+                        <h4>Quantity: 1</h4>
+                        <h5>$10.00</h5>
+                        <hr>
+                    </div>
+                    <div class="items-micro">
+                        <img class="image--products" src="images/usb-c-2-micro.jpeg" align="left">
+                        <h2>C Type to Micro Converter</h2>
+                        <h3>Black</h3>
+                        <h4>Quantity: 1</h4>
+                        <h5>$10.00</h5>
+                        <hr>
+                    </div>
+                    <div class="items-case">
+                        <img class="image--products" src="images/hard-case.jpg" align="left">
+                        <h2>Mobile Case</h2>
+                        <h3>Black</h3>
+                        <h4>Quantity: 1</h4>
+                        <h5>$10.00</h5>
+                        <hr class="items--line">
+                    </div>
+                    <div class="items-subtotal">
+                        <div>
+                            <h6>Sub-Total</h6>
+                            <h6>Shipping</h6>
+                            <h6>Taxes</h6>
+                        </div>
+                        <div class="items-price">
+                            <h6>$100.00</h6>
+                            <h6>$10.00</h6>
+                            <h6>$5.00</h6>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="items-total">
+                        <div>
+                            <h6 class="total">Total</h6>
+                        </div>
+                        <div class="items-price">
+                            <h6>$115.00</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
