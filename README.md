@@ -1,4 +1,5 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# react-client
+A Learning application which provides you the complete learning of ReactJS.
 
 ## Available Scripts
 
